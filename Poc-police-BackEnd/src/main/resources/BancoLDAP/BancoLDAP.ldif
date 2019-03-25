@@ -1,0 +1,68 @@
+version: 1
+
+dn: ou=grupoDiretores,dc=dominioEmpresa,dc=local
+objectClass: organizationalUnit
+objectClass: top
+ou: grupoDiretores
+
+dn: dc=dominioEmpresa,dc=local
+objectclass: top
+objectclass: domain
+dc: dominioEmpresa
+
+dn: displayName=Flavio Comprador,ou=grupoCompradores,dc=dominioEmpresa,dc=lo
+ cal
+objectClass: organizationalPerson
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: top
+cn: Flavio Comprador Planta 01
+sn: Flavio
+displayName: Flavio Comprador
+uid: flavio.comprador
+userPassword: {SSHA}y6XtKcnW5J3F2xfdFiZEgm2HTAP8bTzrpM1f5A==
+
+dn: displayName=Fernanda Lima,ou=grupoVendedores,dc=dominioEmpresa,dc=local
+objectClass: organizationalPerson
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: top
+cn: Fernanda Lima
+sn: Nanda
+displayName: Fernanda Lima
+uid: fernanda.vendedora
+userPassword: {SSHA}BHcq9Co906ilOUKMOCNSHfTC1YH37KNbg/Ci4Q==
+
+dn: displayName=Jose Diretor,ou=grupoDiretores,dc=dominioEmpresa,dc=local
+objectClass: organizationalPerson
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: top
+cn: Jose Diretor Planta 01
+sn: Diretor
+displayName: Jose Diretor
+uid: jose.diretor
+userPassword: {SSHA}YnVglOZA8fViH5b6zWKEGHJOt0tzCI5Dq2fOjA==
+
+dn: displayName=Germano Comprador,ou=grupoCompradores,dc=dominioEmpresa,dc=l
+ ocal
+objectClass: organizationalPerson
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: top
+cn: Flavio Comprador Planta 01
+sn: Germano
+displayName: Germano Comprador
+uid: germano.comprador
+userPassword: {SSHA}lX6dju9N0B9OYvm4o7b+D+E86573tWQD0M43/Q==
+
+dn: ou=grupoVendedores,dc=dominioEmpresa,dc=local
+objectClass: organizationalUnit
+objectClass: top
+ou: grupoVendedores
+
+dn: ou=grupoCompradores,dc=dominioEmpresa,dc=local
+objectClass: organizationalUnit
+objectClass: top
+ou: grupoCompradores
+
